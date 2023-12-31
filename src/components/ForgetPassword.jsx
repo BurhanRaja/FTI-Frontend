@@ -1,7 +1,16 @@
 import React from "react";
+import CommonForm from "./CommonForm";
 
 const ForgetPassword = () => {
-  return <div>ForgetPassword</div>;
+  return (
+    <>
+      <CommonForm
+        content={<>
+          
+        </>}
+      />
+    </>
+  );
 };
 
 export default ForgetPassword;

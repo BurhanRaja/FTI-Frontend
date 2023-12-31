@@ -47,29 +47,29 @@ const CommonForm = ({ content }) => {
               justifyContent={"center"}
               alignItems={"center"}
               width={"100%"}
-              direction='column'
+              direction="column"
             >
               <img
-                src='./images/logo.png'
-                width={"180px"}
-                alt='logo'
+                src="./images/logo.png"
+                width={"160px"}
+                alt="logo"
                 style={{ marginBottom: "20px" }}
               />
               <Grid
                 container
                 justifyContent={"space-evenly"}
                 alignItems={"center"}
-                marginTop='20px'
+                marginTop="20px"
                 width={"80%"}
               >
                 <img
-                  src='./images/meeting-point.png'
+                  src="./images/meeting-point.png"
                   width={"120px"}
-                  alt='logo'
+                  alt="logo"
                 />
                 <Divider
-                  orientation='vertical'
-                  variant='middle'
+                  orientation="vertical"
+                  variant="middle"
                   flexItem
                   sx={{
                     padding: "5px",
@@ -77,11 +77,10 @@ const CommonForm = ({ content }) => {
                     height: "40px",
                   }}
                 />
-                <img src='./images/yt.png' width={"160px"} alt='logo' />
+                <img src="./images/yt.png" width={"160px"} alt="logo" />
               </Grid>
               {/*  */}
               {content}
-              
             </Grid>
           </Box>
         </Grid>
